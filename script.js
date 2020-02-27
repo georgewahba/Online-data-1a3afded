@@ -1,5 +1,5 @@
 var info ={
-    name:"Zara", score:36, date:"21 januari 2016", friends:"Mika, Josef, Maria, Sumail, Lotte", Gekwalificeerd:"waar"
+    name:"Zara", score:36, date: new Date(2020, 2, 27), friends:["Mika", "Josef", "Maria", "Sumail", "Lotte"], Gekwalificeerd:true
 }
 var json = JSON.stringify(info);
 
